@@ -10,6 +10,7 @@ function App() {
     counter=counter+1;
     if(counter<20){
       setcounter(counter)
+     
       }
       else{
         alert("value is above 20 please decrease value")

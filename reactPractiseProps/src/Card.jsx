@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card(Props) {
     console.log(Props.val);
-    return (
+    return ( 
         <>
             <div className="flex font-sans">
                 <div className="flex-none w-48 relative">
@@ -51,7 +51,7 @@ function Card(Props) {
                                 <div className="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
                                     XL
                                 </div>
-                            </label>
+                            </label>  
                         </div>
                     </div>
                     <div className="flex space-x-4 mb-6 text-sm font-medium">

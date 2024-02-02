@@ -8,7 +8,7 @@ function App() {
     name:"rk",
     age:20
   }
-
+   
   return (
     <>
       <h1 className='bg-black text-white p-5 mb-10'>React Props Practise 20 october 2023 </h1>

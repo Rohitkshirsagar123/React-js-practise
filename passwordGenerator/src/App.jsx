@@ -38,7 +38,7 @@ function App() {
 
   const handleNumberCheckboxChange = () => {
     setNumberAllowed(!numberAllowed);
-    setCharAllowed(!charAllowed);
+    setCharAllowed(!charAllowed);   
     
     settext("copy"); // Set text to "copy" when the checkbox for numbers is clicked
   };
@@ -52,7 +52,7 @@ function App() {
     <>
       <div className=' w-full h-screen main_div'> 
         <div className='pass_sec'>
-          <center> <h1 className='font-bold mb-3 text-xl'>password generator in React</h1> </center>
+          <center> <h1 className='font-bold mb-3 text-xl'>Password Generator in React</h1> </center>
           <div className="first_sec">
               <input 
               type="text"
