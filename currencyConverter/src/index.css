@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+    font-size: 44px;
+    padding-bottom: 80px;
+    color: black;
+} */
+
+input{
+    background-color: rgb(156 163 175) !important;
+    color: black !important;
+}
+ input::placeholder {
+    color: rgb(96, 93, 93) !important; /* Change the placeholder color */
+  }
